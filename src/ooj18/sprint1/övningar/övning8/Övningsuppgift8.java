@@ -4,9 +4,9 @@ import java.util.LinkedList;
 import java.util.List;
 
 
-public class övningsuppgift7 {
+public class Övningsuppgift8 {
 
-    public övningsuppgift7(){
+    public Övningsuppgift8(){
         
         FigurFabrik fabrik = new FigurFabrik();
         
@@ -22,7 +22,7 @@ public class övningsuppgift7 {
     }
     
     public static void main(String[] args){
-        övningsuppgift7 ö = new övningsuppgift7();
+        Övningsuppgift8 ö = new Övningsuppgift8();
     }
     
 }
