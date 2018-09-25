@@ -14,9 +14,9 @@ public class Main {
         anna.printMe();
         bertil.printMe();
         
-        System.out.println("");
+        System.out.println("");  //tom rad
         anna.försäljning(bertil);
-        System.out.println("");
+        System.out.println("");   //tom rad
         
         anna.printMe();
         bertil.printMe();
