@@ -1,4 +1,4 @@
-package obj18.sprint1.demos.enums;
+package ooj18.sprint1.demos.enums;
 
 public class TeamPlayer {
     

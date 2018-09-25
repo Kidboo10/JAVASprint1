@@ -1,6 +1,6 @@
-package obj18.sprint1.demos.enums;
+package ooj18.sprint1.demos.enums;
 
-import obj18.sprint1.demos.enums.TeamPlayer.Team;
+import ooj18.sprint1.demos.enums.TeamPlayer.Team;
 import java.util.ArrayList;
 import java.util.List;
 
