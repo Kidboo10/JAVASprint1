@@ -5,7 +5,7 @@ public class ÖvningsuppgiftEnum {
     public static void main(String[] args){
         for (RomerskaSiffror r : RomerskaSiffror.values()){
                 System.out.println(r.toString() + " is " 
-                        + r.digit +" " + r.C.L.V);
+                        + r.digit );
         }
     }
 }

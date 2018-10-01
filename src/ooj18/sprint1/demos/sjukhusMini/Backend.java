@@ -21,6 +21,18 @@ public class Backend {
      
     
     
+    public List<BackendPerson> getAllPersons(){
+        
+        List <BackendPerson> allPersons = new ArrayList<>();
+        allPersons.add(Anna);
+        allPersons.add(Bertil);
+        allPersons.add(Cecil);
+        allPersons.add(Danne);
+        allPersons.add(Ella);
+        
+        return allPersons;
+    }
+    
     
     public List<IAddressee> getAllAdressees(){
         

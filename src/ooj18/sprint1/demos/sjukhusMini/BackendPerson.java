@@ -54,6 +54,10 @@ public class BackendPerson implements IAddressee {
     public String getDisease(){
         return disease;
     }
+    
+    public String getAll(){
+        return getName() +" "+getAddress() +" "+this.getDisease()+" "+this.getBirthday();
+    }
 
 }
     

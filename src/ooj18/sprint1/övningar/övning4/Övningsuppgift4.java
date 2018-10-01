@@ -14,7 +14,8 @@ public class Övningsuppgift4 {
         Kurs OOPJava = new Kurs("Objektorientering och Java");
         
         //Datumet kommer att sättas till exakt när koden exekveras
-        Kurstillfälle kurstillfälle = new Kurstillfälle(OOPJava, new Date());
+        Kurstillfälle kurstillfälle = 
+                new Kurstillfälle(OOPJava, new Date());
         
         kurstillfälle.läggTillStudent(Anna);
         kurstillfälle.läggTillStudent(Tolvan);

@@ -17,19 +17,28 @@ public class ListDemo {
         l.add("Blyger");
         l.add("Prosit");
         l.add("Trötter");
+        l.add("Blyger");
         
         for (String s : l){
             System.out.println(s);
-        }
 
-        System.out.println();
-        
-        for (int i = 0; i < l.size() ; i++){
-            System.out.println(l.get(i));
         }
         
-        System.out.println();
+        int index = l.indexOf("gfdgfdgd");
+        System.out.println("index: "+index);
         
-        System.out.println(l);
+      //  l.set(index, "Tomten");
+//
+////        System.out.println();
+////        
+//        for (int i = 0; i < l.size() ; i++){
+//            System.out.println(l.get(i));
+//        }
+////        
+//        System.out.println();
+//        
+//        System.out.println(l);
+
+          l.forEach(dwarf -> System.out.println(dwarf) );
     }
 }

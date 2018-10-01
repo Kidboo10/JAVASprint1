@@ -3,6 +3,8 @@ package BilDemoLiveKodad;
 
 public class Bil {
     
+    //test
+    
     protected String regNr;
     protected String model;
     protected String label;

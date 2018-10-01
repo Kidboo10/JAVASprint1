@@ -18,6 +18,12 @@ public class Day{
         Day day1 = new Day(Weekday.MONDAY);
         Day day2 = new Day(Weekday.TUESDAY);
         
+        System.out.println(day1.dayName);
+        
+//        System.out.println(Weekday.THURSDAY);
+//        Weekday w = Weekday.FRIDAY;
+//        System.out.println(w.name());
+        
     }
     
 }
