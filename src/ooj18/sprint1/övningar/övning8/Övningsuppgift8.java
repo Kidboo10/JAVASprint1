@@ -16,7 +16,9 @@ public class Övningsuppgift8 {
         figurlista.add(fabrik.getFigur("fyrkantig"));
         
         for (Figur f : figurlista){
-            System.out.println("En " + f.getClass().getSimpleName() + " med area " + f.area() );
+            System.out.println("En " 
+                    + f.getClass() .getSimpleName()
+                    + " med area " + f.area() );
         }
         
     }

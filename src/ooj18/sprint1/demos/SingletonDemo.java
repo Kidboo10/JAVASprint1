@@ -5,7 +5,7 @@ class Singleton
     private static Singleton singleton_instance = null;
     public String s;
  
-    // koms bara åt av den egna klassen
+    // konstruktor, koms bara åt av den egna klassen
     private Singleton()
     {
         s = "Bara för att visa att nåt händer";
@@ -32,6 +32,10 @@ class Main
         // // Vi skaffar oss ytterligare en instans av singleton
         Singleton y = Singleton.getInstance();
  
+        System.out.println("String from x is: " + x.s);
+        System.out.println("String from y is: " + y.s);
+        System.out.println("\n");
+        
         // Vi låter x:s instans av s bli UpperCase
         x.s = (x.s).toUpperCase();
  
@@ -39,11 +43,11 @@ class Main
         System.out.println("String from y is: " + y.s);
         System.out.println("\n");
  
-        // Vi låter y:s instans av s bli LowerCase
-        y.s = (y.s).toLowerCase();
- 
-        System.out.println("String from x is: " + x.s);
-        System.out.println("String from y is: " + y.s);
+//        // Vi låter y:s instans av s bli LowerCase
+//        y.s = (y.s).toLowerCase();
+// 
+//        System.out.println("String from x is: " + x.s);
+//        System.out.println("String from y is: " + y.s);
     }
 }
     

@@ -2,7 +2,7 @@ package ooj18.sprint1.demos;
 
 public class RecursionDemo {
    protected static int faculty(int i){
-        if ( i <= 1){
+        if ( i == 1){
             return 1;
         }
         else {
