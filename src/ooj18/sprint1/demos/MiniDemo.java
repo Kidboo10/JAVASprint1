@@ -10,6 +10,6 @@ public class MiniDemo {
         minaSiffror[3] = 42;
         System.out.println("Hej allihopa");
         //skriver  mera saker i testbranchen
-        //master branch, bla bla bla
+        //master branch, bla bla bla and another bla
     }
 }
