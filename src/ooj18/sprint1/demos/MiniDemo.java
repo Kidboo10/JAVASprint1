@@ -11,5 +11,6 @@ public class MiniDemo {
         System.out.println("Hej allihopa");
         //skriver saker i testbranchen
         //prepping for merge-fault
+        //writing more in test branch
     }
 }
