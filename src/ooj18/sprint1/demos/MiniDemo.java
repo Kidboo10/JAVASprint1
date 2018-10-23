@@ -9,5 +9,6 @@ public class MiniDemo {
         int[] minaSiffror = new int[10];
         minaSiffror[3] = 42;
         System.out.println("Hej allihopa");
+        //skriver saker i testbranchen
     }
 }
