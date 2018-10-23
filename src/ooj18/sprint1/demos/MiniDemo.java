@@ -10,5 +10,6 @@ public class MiniDemo {
         minaSiffror[3] = 42;
         System.out.println("Hej allihopa");
         //skriver saker i testbranchen
+        //prepping for merge-fault
     }
 }
