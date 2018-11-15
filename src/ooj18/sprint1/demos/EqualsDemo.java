@@ -17,6 +17,9 @@ public class EqualsDemo {
 //Added on demobranch  
 
 //mergekonflikt master
+     
+
+//mergekonflikt demobranch
         System.out.println(h1.equals(o));
     }
 
