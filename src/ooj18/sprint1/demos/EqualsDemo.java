@@ -13,7 +13,8 @@ public class EqualsDemo {
         
 //        System.out.println(h1.equals(h2));
 //        System.out.println(h1.equals(h3));
-        
+
+//Added on demobranch        
         System.out.println(h1.equals(o));
     }
 
