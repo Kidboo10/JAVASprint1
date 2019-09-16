@@ -10,7 +10,7 @@ public class MiniDemo {
         minaSiffror[3] = 42;
         System.out.println("Hej allihopa");
         //skriver  mera saker i testbranchen
-        //master branch, bla bla bla and another bla
+        //master branch, bla bla bla and another bla bla
         //skriver saker i testbranchen
         //prepping for merge-fault
         //writing more in test branch
