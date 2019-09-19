@@ -5,19 +5,19 @@ import java.util.List;
 
 public class FrontEnd {
     
-        public void printAddress(IAddressee a){
-           System.out.println(a.getName());
-           System.out.println(a.getAddress());
-           System.out.println();
+    public void printAddress(IAddressee a){
+        System.out.println(a.getName());
+        System.out.println(a.getAddress());
+        System.out.println();
     }
     
     public FrontEnd(){
     
         Backend backend = new Backend();
-        List <BackendPerson> allPersons = backend.getAllPersons();
+        List <IAddressee> allPersons = backend.getAllAdressees();
         
-        for (BackendPerson a : allPersons){
-            System.out.println(a.getAll());
+        for (IAddressee a : allPersons){
+            printAddress(a);
         }
     }
     

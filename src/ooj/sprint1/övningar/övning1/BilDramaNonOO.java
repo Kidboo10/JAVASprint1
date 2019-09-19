@@ -27,7 +27,14 @@ public class BilDramaNonOO {
         String vitaVolvonsRegNr = "ERT 432";
         String vitaVolvonsMärke = "Volvo";
         
-        //En bool-matris får representera ägandeskapet
+        //En approach för ägandeskap
+        String rödaSaabensÄgare = "Bosse";
+        String vitaVolvonsÄgare = "Kim";
+        
+        //Verkar bra men hur vet vi att Kim som är vitaVolvonsÄgare är samma Kim som i kimsNamn?
+        //Det skulle kunna finns kim2sNamn = "Kim", och då har vi bortkollrade
+        
+        //Approach 2, en bool-matris får representera ägandeskapet
         //Jag ger indexen namn för att hålla reda på vilekn rad/kolumn hör till vilken person/bil
         boolean [][] bilägare = new boolean [3][2];
         int bosse = 0;
@@ -79,5 +86,8 @@ public class BilDramaNonOO {
                 }
             }
         }
+        
+        //Vad händer om fler bilar och ägare tillkommer? 
+        //Jo, vi måste skriva om väldigt mycket kod varje gång, inte bra
     }
 }
